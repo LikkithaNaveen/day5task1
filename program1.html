@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //FOR
+    var numbers = [ 10, 20, 30, 40, 50] 
+    for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+        }
+        //FOR IN
+        var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+        }; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+
+//FOR EACH
+
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+
+var array = [{vehicle:'Benz'}, {vehicle:'Audi'}];
+         for (var result of array){
+            console.log(result.vehicle );
+         }
+</script>
+    
+</body>
+</html>     
